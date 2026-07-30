@@ -57,7 +57,7 @@ jobs:
       - name: 手机号登录
         run: npm run phoneLogin
         env:
-          PHONE: ${{ secrets.PHONE }}
+          PHONE: ${{ secrets.PHONE19870202751 }}
           CODE: ${{ secrets.CODE }}
           PAT: ${{ secrets.PAT }}
           GITHUB_REPOSITORY: ${{ github.repository }}
